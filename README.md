@@ -5,6 +5,7 @@ This page is to keep myself a reading list of ML algorithm/system/theory papers 
 Categorization is yet to come.
 
 - Blalock et al., [Multiplying Matrices without Multiplying](https://arxiv.org/abs/2106.10860), ICML 2021.
+> Replaces the matrix multiplication $C = AB$ with LSH: First, generate hash tables from some training data (say, tilde A). Next, construct prototype row vectors for each bucket. Then, pre-compute B-processed versions of the prototypes (i.e., $v^t B$). Then, for each row of A, map it to the bucket, and output the corresponding B-processed version.
 - Chen et al., [SLIDE : In Defense of Smart Algorithms over Hardware Acceleration for Large-Scale Deep Learning Systems](https://arxiv.org/abs/1903.03129), MLSys 2020.
 - Chen et al., [MONGOOSE: A Learnable LSH Framework for Efficient Neural Network Training](https://openreview.net/forum?id=wWK7yXkULyh), ICLR 2021.
 - Kitaev et al., [Reformer: The Efficient Transformer](https://arxiv.org/abs/2001.04451), ICLR 2020.
